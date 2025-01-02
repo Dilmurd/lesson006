@@ -39,7 +39,7 @@ function Foods() {
                         <Box sx={{ '& > legend': { mt: 2 } }}>
                         <Rating name="read-only" value={item.rating} readOnly />
                         </Box>
-                        <Button variant="contained" style={{padding: "5px",background: "pink",color: "#000", fontWeight: "bold", fontSize: "16px"}}>Go Pizza</Button>
+                        <Button variant="contained" style={{padding: "5px",background: "pink",color: "#000", fontWeight: "bold", fontSize: "16px"}}>Go Buy</Button>
                         </div>
                     </div>
                     ))}
